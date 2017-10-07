@@ -79,13 +79,13 @@ def createTree(dataSet, leafType=regLeaf, errType=regErr, ops=(1,4)):
 testMat=np.mat(np.eye(4))
 mat0,mat1=binSplitDataSet(testMat,1,0.5)
 #print (mat0,mat1)
-myDat = loadDataSet('F:/计算机/machinelearninginaction随书源代码/Ch09/ex00.txt')
+myDat = loadDataSet('ex00.txt')
 
 myMat = np.mat(myDat)
 #print (myMat)
 
 #print (createTree(myMat))
 
-myDat1=loadDataSet('F:/计算机/machinelearninginaction随书源代码/Ch09/ex0.txt')
+myDat1=loadDataSet('ex0.txt')
 myMat1=np.mat(myDat1)
 print(createTree(myMat1))
