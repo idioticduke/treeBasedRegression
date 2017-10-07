@@ -34,5 +34,5 @@ def prune(tree, testData):
     else:
         return tree
 
-myMat2 = np.mat(tb.loadDataSet('F:/计算机/machinelearninginaction随书源代码/Ch09/exp2.txt'))
+myMat2 = np.mat(tb.loadDataSet('exp2.txt'))
 print(tb.createTree(myMat2, pl.modelLeaf, pl.modelErr,(1,10)))
